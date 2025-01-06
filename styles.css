@@ -1,0 +1,19 @@
+.message-button {
+  padding: 20px 40px;
+  font-size: 1.2em;
+  border-radius: 50%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.message-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.message-button:active {
+  transform: scale(0.95);
+} 
